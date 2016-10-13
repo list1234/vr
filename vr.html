@@ -132,7 +132,7 @@
 				//});
 
 
-				for (i=0; i<14; i++) {
+				for (i=0; i<13; i++) {
 					loader.load ('./stl/UPPER.stl-' + i + '.stl', function (geometry) {
 					var material = new THREE.MeshStandardMaterial( {color: Math.random() * 0xffffff,roughness: 0.7, metalness: 0.0 });
 
@@ -152,7 +152,7 @@
 					object.receiveShadow = true;
 
 					group.add( object );
-					console.log("tooth")
+					console.log("tooth");
 					});
 				};
 
